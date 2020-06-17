@@ -1,0 +1,244 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 0.03rem;
+
+}
+
+body {
+    background-color: #ffffff;
+}
+
+div.navbar {
+    display: flex;
+    background-color: #7261c1;
+    height: 80px;
+    justify-content: space-between;
+}
+
+nav {
+    margin-left: 170px;
+    display: flex;
+    align-items: center;
+
+}
+
+nav ul {
+    display: flex;
+    margin-left: 15px;
+
+}
+
+nav span {
+    background-color :#ded2f0;
+    width: 1px;
+    height: 35px;
+    margin-left: 20px;
+        
+}
+
+nav ul { 
+    margin-left: 0px;
+}
+
+nav ul a {
+    color: #dfd3e9be;
+    margin-left: 24px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+
+}
+
+nav ul a:hover {
+    color: antiquewhite;
+    opacity: 100%;
+}
+div.navbar div.social {
+    margin-right: 170px;
+    display: flex;
+    align-items: center;
+}
+
+div.social div.redes {
+    margin-right: 60px;
+    display: flex;
+    align-items: center;
+}
+
+div.social div.redes a {
+    margin-right: 15px;
+}
+
+div.social div.redes a img {
+    max-width: 30px;
+    height: 20px;
+}
+
+div.social button {
+    background-color: #fff;
+    border: none;
+    width: 90px;
+    height: 40px;
+    border-radius: 5px;
+    color: #7261c1;
+    font-weight: 600;
+}
+
+main.title {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    height: 440px;
+    padding: 0px 200px;
+    gap: 140px;
+}
+
+main.title div.texts {
+    width: 450px;
+}
+
+main.title div.texts h1 {
+    color: #4b4b4b;
+    font-size: 35px;
+    line-height: 50px;
+}
+main.title div.texts p {
+    color: #c9b2eb;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0;
+    margin-top: 10px;
+
+}
+
+main.title div.texts button {
+    background-color: #7261c1;
+    border: none;
+    width: 270px;
+    height: 50px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+div.techs {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    background-color: #7261c1;
+    height: 430px;
+    padding: 0px 200px;
+    gap: 70px;
+}
+
+div.techs div.techs-text {
+    width: 540px;
+}
+div.techs div.techs-text h1 {
+    color: #ffffff;
+    font-size: 38px;
+    line-height: 52px;
+}
+
+div.techs div.techs-text h2 {
+    color: #ded2f0;
+    margin-top: 10px;
+}
+
+div.techs div.techs-text p {
+    color: #ded2f0;
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+div.courses {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    height: 320px;
+    padding: 0px 200px;
+    gap: 70px;
+}
+
+div.courses div.box-courses {
+    display: grid; 
+    grid-template-columns: 1fr 3fr;
+    grid-template-areas: "img h1"
+                         "content content"
+                         "button button";
+}
+
+div.courses div.box-courses img {
+    grid-area: img;
+}
+
+div.courses div.box-courses h1 {
+    grid-area: h1;
+    color: #4b4b4b;
+
+}
+
+div.courses div.box-courses p {
+    grid-area: content;
+    color: #b195da;
+    margin-top: 15px;
+    line-height: 30px;
+
+}
+
+div.courses div.box-courses button {
+    grid-area: button;
+    background-color: #7261c1;
+    border: none;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+div.comunity {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    height: 440px;
+    padding: 0px 200px;
+    gap: 140px;
+    background-color: #f1effe;
+}
+
+div.comunity div.texts {
+    width: 450px;
+}
+
+div.comunity div.texts h1 {
+    color: #4b4b4b;
+    font-size: 35px;
+    line-height: 50px;
+}
+div.comunity div.texts p {
+    color: #c9b2eb;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0;
+    margin-top: 10px;
+
+}
+
+div.comunity div.texts button {
+    background-color: #7261c1;
+    border: none;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+
